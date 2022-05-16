@@ -9,8 +9,8 @@
 }
 
 TD, TH {
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid black; /* Параметры рамки */
+    padding: 3px;
+    border: 1px solid black;
 }
 
 .row {
