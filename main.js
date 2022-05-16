@@ -33,30 +33,3 @@ usersDataBody.onclick = function (event) {
 usersDataBody.ondblclick = function (event) {
     alert(event.target.parentElement.querySelector('#name').innerHTML)
 }
-
-
-
-
-
-// function reverce (array){
-//     const resArray = [];
-//     for (let i in array){
-//         resArray.push(array[array.length - 1 - i]);
-//     }
-//     return resArray;
-// }
-
-// btn.onclick = function (){
-//     const arr = [];
-//     for (let i in userArr.value){
-//         if ((userArr.value[i] == ',') || (userArr.value[i] == ' ')) {
-//             continue;
-//         } else {
-//             arr.push(userArr.value[i]);
-//         }
-//     }
-    
-//     console.log(reverce(arr));
-//     resultUser.innerHTML = reverce(arr);
-//     resultUser.style.color = "green";
-// }
