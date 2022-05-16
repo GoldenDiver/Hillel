@@ -1,0 +1,22 @@
+#container {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.table_head {
+    background-color: hsl(0deg 0% 78%);
+
+}
+
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+
+.row {
+    background-color: yellow;
+}
+
+.row1 {
+    background-color: rgb(0, 255, 0);
+}
