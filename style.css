@@ -1,4 +1,21 @@
-#container {
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+button {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+table {
     margin: auto;
     border-collapse: collapse;
 }
@@ -9,8 +26,8 @@
 }
 
 TD, TH {
-    padding: 3px;
-    border: 1px solid black;
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
 }
 
 .row {
